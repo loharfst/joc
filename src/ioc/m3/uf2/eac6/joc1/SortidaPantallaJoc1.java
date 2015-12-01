@@ -23,10 +23,12 @@ public class SortidaPantallaJoc1 {
             String aux = scanner.nextLine();
     }
     
-        /**
+    /**
      * Funció que avalua si l'usuari pot demanar una pista si és que pot demanar més pistes
      * @param bossaDePunts punts que li queden a l'usuari
      * @param esPotDonarPista booleà que determina si l'usuari pot o no demanar més pistes
+     * @param pistesConcedides
+     * @param paraula
      * @return booleà que determina si pot o no demanar pista
      */
     public boolean potDemanarNovaPista(int bossaDePunts, boolean esPotDonarPista, int pistesConcedides, String paraula){
